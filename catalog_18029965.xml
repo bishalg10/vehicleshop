@@ -1,0 +1,916 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="catalog_18029965.css"?>
+    <vehicleShop xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="catalog_18030089.xsd">
+        <basicInfo>
+            <logo class='CompanyLogo'/>
+            <clockIcon class='ClockIcon'/>
+            <openingTime>Sun-Fri 8:00- 18:00 Sunday CLOSED</openingTime>
+            <phoneIcon class='PhoneIcon'/>
+            <phoneNumber>014912005,014915008</phoneNumber>
+            <horizontalLine></horizontalLine>
+        </basicInfo>
+        <carBackground>
+            <navBar>
+                <li>HOME</li>
+                <li>BLOG</li>
+                <li>CAR SERVICES</li>
+                <li>CAR DETAILS</li>
+                <li>CONTACT</li>
+            </navBar>
+            <purchaseNow>Purchase Now</purchaseNow>
+            <imageTitle>
+                <photoInfo1>LAMBORGHINI</photoInfo1>
+                <photoInfo2>DRIVE ME</photoInfo2>
+                <photoInfo3>BUT FAST!</photoInfo3>
+            </imageTitle>
+        </carBackground>
+        <companyServices>
+            <serviceDetail ServiceID='A01'>
+                <serviceNumber>01</serviceNumber>
+                <serviceName>NEW VEHICLE</serviceName>
+                <serviceInfo>Get yourself nice and relaxed and settled. Concentrate on your breathing, engage in the activities</serviceInfo>
+                <moreDetail>Read More</moreDetail>
+            </serviceDetail>
+            <serviceDetail ServiceID='A02'>
+                <serviceNumber>02</serviceNumber>
+                <serviceName>VEHICLE SERVICE</serviceName>
+                <serviceInfo>About something that you know you need to be doing, but are not. Then with that thing you might.</serviceInfo>
+                <moreDetail>Read More</moreDetail>
+            </serviceDetail>
+            <serviceDetail ServiceID='A03'>
+                <serviceNumber>03</serviceNumber>
+                <serviceName>VEHICLE PARTS</serviceName>
+                <serviceInfo>You will begin to realize why this exercise is called the Dickens Pattern reference in a well</serviceInfo>
+                <moreDetail>Read More</moreDetail>
+            </serviceDetail>
+            <serviceDetail ServiceID='A04'>
+                <serviceNumber>04</serviceNumber>
+                <serviceName>OLD VEHICLE</serviceName>
+                <serviceInfo>Scrooge some different futures as you notice that the idea of this exercise is hypnitize for a car</serviceInfo>
+                <moreDetail>Read More</moreDetail>
+            </serviceDetail>
+        </companyServices>
+        <companyInfo>
+            <companyInfo1>WELCOME TO THE KIMSTOCK MARKET</companyInfo1>
+            <companyInfo2>The Kimstock car industry has been booming for years and shows no signs of slowing down anytime soon.</companyInfo2>
+            <companyInfo3>Our best cars.</companyInfo3>
+            <companyInfo4>Your best offer.</companyInfo4>
+            <companyInfo5>Thousands of new cars, trucks and crossover. All with amazing deals.</companyInfo5>
+        </companyInfo>
+        <featureCar >
+            <backgroundImage class="CarBackground"/> 
+            <caption1>Check out our recent cars</caption1>
+            <caption2>FEATURE CAR</caption2>
+            <horizontalLine1></horizontalLine1>
+            <horizontalLine2></horizontalLine2>
+        </featureCar>
+        <vehicleInformation>
+            <vehicleDetail ID='BodyType_01'>
+            <bodyType ItemType='SEDAN' >OUR SEDAN</bodyType>
+            <item ItemNumber='01' InstallmentPay='Available'>
+                <horizontalLine3></horizontalLine3>
+                <carID>1</carID>
+                <image class="VehicleImage"/>
+                <specification>
+                    <specificationSector sector='Specification_01'>
+                        <manufacturer>Mahindra</manufacturer>
+                        <color>Diamond White</color>
+                        <fuelType>Electric</fuelType>
+                        <batteryCapacity>81.7</batteryCapacity>       
+                        <chargingTime>11.5</chargingTime>            
+                        <transmission>Automatic</transmission>
+                        <quantity>5</quantity>
+                        <price>15,82,999</price>                     
+                    </specificationSector>
+                    <specificationSector sector='Specification_02'>
+                        <condition>New</condition>
+                        <seats>5</seats>
+                        <doors>4</doors>             
+                        <dimensions>             
+                            <length>4247</length>
+                            <width>1740</width>
+                            <height>1540</height>
+                        </dimensions>
+                        <engineDisplacement>200</engineDisplacement>  
+                        <torque>91Nm@3000</torque>                     
+                        <mileage>181.0</mileage>         
+                        <maximumSpeed>86</maximumSpeed>   
+                    </specificationSector>
+                    <specificationSector sector='Specification_03'>
+                        <model>Mahindra e-Veritoe</model>
+                        <vehicleDescription><![CDATA[ Mahindra e-Veritoe has 1 Electric Engine on offer. It is available with direct injection fuel system.The e2o NXT is a 5 seater Sedan.]]></vehicleDescription>
+                        <readMore>Read More</readMore>
+                    </specificationSector>
+                </specification>
+                <selling>
+                    <buy>BUY NOW</buy>
+                    <reserve>RESERVE NOW</reserve>
+                </selling>
+            </item>
+            <item ItemNumber='02' InstallmentPay='Available'>
+                <horizontalLine3></horizontalLine3>
+                <carID>2</carID>
+                <image class="VehicleImage"/>
+                <specification>
+                    <specificationSector sector='Specification_01'>
+                        <manufacturer>Maruti Suzuki</manufacturer>
+                        <color>Oxford Blue</color>
+                        <fuelType>Petrol</fuelType>
+                        <fuelSystem>Direct Injection</fuelSystem>
+                        <fuelCapacity>37</fuelCapacity>         
+                        <numbersOfGear>5</numbersOfGear>
+                        <quantity>5</quantity>
+                        <price>22,00,000</price>                
+                    </specificationSector>
+                    <specificationSector sector='Specification_02'>
+                        <condition>New</condition>
+                        <seats>5</seats>
+                        <doors>4</doors>             
+                        <dimensions>            
+                            <length>3995</length>
+                            <width>1735</width>
+                            <height>1515</height>
+                        </dimensions>
+                        <engineDisplacement>1187</engineDisplacement>  
+                        <torque>113Nm@4400</torque>                    
+                        <mileage>24.12</mileage>           
+                        <maximumSpeed>86</maximumSpeed>   
+                    </specificationSector>
+                    <specificationSector sector='Specification_03'>
+                        <model>Maruti Suzuki Dzire</model>
+                        <vehicleDescription><![CDATA[Dzire comes with Co. Driver Side Sunvisor with Vanity Mirror Driver Side Sunvisor with Ticket Holder Front Door Armrest with Fabric.]]></vehicleDescription>
+                        <readMore>Read More</readMore>
+                    </specificationSector>
+                </specification>
+                <selling>
+                    <buy>BUY NOW</buy>
+                    <reserve>RESERVE NOW</reserve>
+                </selling>
+            </item>
+            <item ItemNumber='03' InstallmentPay='Unavailable'>
+                <horizontalLine3></horizontalLine3>
+                <carID>3</carID>
+                <image class="VehicleImage"/>
+                <specification>
+                    <specificationSector sector='Specification_01'>
+                        <manufacturer>Hyundai</manufacturer>
+                        <color>Wine Red</color>
+                        <fuelType>Diesel</fuelType>
+                        <fuelSystem>Direct Injection</fuelSystem>
+                        <fuelCapacity>43</fuelCapacity>       
+                        <transmission>Manual</transmission>
+                        <quantity>5</quantity>
+                        <price>15,50,000</price>            
+                    </specificationSector>
+                    <specificationSector sector='Specification_02'>
+                        <condition>New</condition>
+                        <seats>5</seats>
+                        <doors>4</doors>             
+                        <dimensions>            
+                            <length>3995</length>
+                            <width>1660</width>
+                            <height>1520</height>
+                        </dimensions>
+                        <engineDisplacement>1186</engineDisplacement>    
+                        <torque>190.25Nm@2250</torque>                     
+                        <mileage>25.4</mileage>              
+                        <maximumSpeed>156</maximumSpeed>      
+                    </specificationSector>
+                    <specificationSector sector='Specification_03'>
+                        <model>Hyundai Xcent</model>
+                        <vehicleDescription><![CDATA[ The Hyundai Xcent comes up with Eco Coating Technology, Wireless Phone Charger, Luggage LampLeather wrapped Gear Knob.]]>
+                        </vehicleDescription>
+                        <readMore>Read More</readMore>
+                    </specificationSector>
+                </specification>
+                <selling>
+                    <buy>BUY NOW</buy>
+                    <reserve>RESERVE NOW</reserve>
+                </selling>
+            </item>
+            <item ItemNumber='04' InstallmentPay='Available'>
+                <horizontalLine3></horizontalLine3>
+                <carID>4</carID>
+                <image class="VehicleImage"/>
+                <specification>
+                    <specificationSector sector='Specification_01'>
+                        <manufacturer>Nissan</manufacturer>
+                        <color>Scarlet Ember Tintcoat</color>
+                        <fuelType>Hybrid</fuelType>
+                        <fuelSystem>Injection Gasoline</fuelSystem>
+                        <fuelCapacity>60</fuelCapacity> 
+                        <numbersOfGear>1</numbersOfGear>
+                        <quantity>5</quantity>
+                        <price>83,75,000</price>      
+                    </specificationSector>
+                    <specificationSector sector='Specification_02'>
+                        <condition>New</condition>
+                        <seats>5</seats> 
+                        <doors>4</doors>         
+                        <dimensions>                  
+                            <length>5247</length>
+                            <width>1720</width>
+                            <height>1640</height>
+                        </dimensions>
+                        <engineDisplacement>1497</engineDisplacement>  
+                        <torque>91Nm@3000</torque>                     
+                        <mileage>29.5</mileage>            
+                        <maximumSpeed>210</maximumSpeed>   
+                    </specificationSector>
+                    <specificationSector sector='Specification_03'>
+                        <model>Nissan AltimaSL 2020</model>
+                        <vehicleDescription><![CDATA[It has Intelligent Forward Collision Warning Automatic Emergency Braking RearView Monitor 16" Steel wheels with bolt-on wheel covers. ]]>
+                        </vehicleDescription>
+                         <readMore>Read More</readMore>
+                    </specificationSector>
+                </specification>
+                <selling>
+                    <buy>BUY NOW</buy>
+                    <reserve>RESERVE NOW</reserve>
+                </selling>
+            </item>
+            <item ItemNumber='05' InstallmentPay='Available'>
+                <horizontalLine3></horizontalLine3>
+                <carID>5</carID>
+                <image class="VehicleImage"/>
+                <specification>
+                    <specificationSector sector='Specification_01'>
+                        <manufacturer>Volkswagen</manufacturer>
+                        <color>Reflex Silver Metallic</color>
+                        <fuelType>Diesel</fuelType>
+                        <fuelCapacity>55</fuelCapacity> 
+                        <numbersOfGear>5</numbersOfGear>
+                        <carWeight>1210</carWeight>          
+                        <quantity>5</quantity>
+                        <price>20,00,000</price>            
+                    </specificationSector>
+                    <specificationSector sector='Specification_02'>
+                        <condition>Used</condition>
+                        <seats>5</seats>
+                        <doors>4</doors>             
+                        <dimensions>           
+                            <length>4659</length>
+                            <width>1778</width>
+                            <height>1453</height>
+                        </dimensions>
+                        <engineDisplacement>1597</engineDisplacement>  
+                        <torque>101Nm@3500</torque>         
+                        <mileage>19.33</mileage>           
+                        <maximumSpeed>207</maximumSpeed>    
+                    </specificationSector>
+                    <specificationSector sector='Specification_03'>
+                        <model>Volkswagen Jetta 2.0L</model>
+                        <vehicleDescription><![CDATA[Space-saving spare wheel (steel) Front centre arm rest with storage boxFront seats with height adjustment.]]>
+                        </vehicleDescription>
+                        <readMore>Read More</readMore>
+                    </specificationSector>
+                </specification>
+                <selling>
+                    <buy>BUY NOW</buy>
+                    <reserve>RESERVE NOW</reserve>
+                </selling>
+            </item>
+            </vehicleDetail>
+            <vehicleDetail ID='BodyType_02' >
+                <bodyType ItemType='SUV'>OUR SUV</bodyType>
+                <item ItemNumber='06' InstallmentPay='Available'>
+                <horizontalLine3></horizontalLine3>
+                    <carID>6</carID>
+                    <image class="VehicleImage"/>
+                    <specification>
+                        <specificationSector sector='Specification_01'>
+                            <manufacturer>Jeep</manufacturer>
+                            <color>Olive Green Pearlcoat</color>
+                            <fuelType>Diesel</fuelType>
+                            <fuelCapacity>60</fuelCapacity>
+                            <numbersOfGear>6</numbersOfGear>
+                            <carWeight>1568</carWeight>     
+                            <quantity>5</quantity>
+                            <price>70,90,000</price>       
+                        </specificationSector>
+                        <specificationSector sector='Specification_02'>
+                            <condition>New</condition>
+                            <seats>5</seats>
+                            <doors>4</doors>             
+                            <dimensions>              
+                                <length>4395</length>
+                                <width>1818</width>
+                                <height>1640</height>
+                            </dimensions>
+                            <engineDisplacement>1956</engineDisplacement>    
+                            <torque>350Nm@1750-2500</torque>                             
+                            <mileage>17.1</mileage>                         
+                            <maximumSpeed>205</maximumSpeed>                 
+                        </specificationSector>
+                        <specificationSector sector='Specification_03'>
+                            <model>Jeep Compass</model>
+                            <vehicleDescription><![CDATA[The additional features of Jeep Compass are Bi-Xenon Or HID Headlamps, Electronic Parking Brake, Curtain Airbags and Auto-Dimming.]]>
+                            </vehicleDescription>
+                            <readMore>Read More</readMore>
+                        </specificationSector>
+                    </specification>
+                    <selling>
+                        <buy>BUY NOW</buy>
+                        <reserve>RESERVE NOW</reserve>
+                    </selling>
+                </item>
+                <item ItemNumber='07' InstallmentPay='Unavailable'>
+                    <horizontalLine3></horizontalLine3>
+                    <carID>7</carID>
+                    <image class="VehicleImage"/>
+                    <specification>
+                        <specificationSector sector='Specification_01'>
+                            <manufacturer>Hyundai</manufacturer>
+                            <color>Polar White</color>
+                            <fuelType>Electric</fuelType>
+                            <batteryCapacity>39.4</batteryCapacity>      
+                            <chargingTime>6</chargingTime>                
+                            <numbersOfGear>1</numbersOfGear>
+                            <quantity>2</quantity>
+                            <price>51,96,000</price>     
+                        </specificationSector>
+                        <specificationSector sector='Specification_02'>
+                            <condition>New</condition>
+                            <seats>5</seats>
+                            <doors>5</doors>             
+                            <dimensions>           
+                                <length>4180</length>
+                                <width>1800</width>
+                                <height>1570</height>
+                            </dimensions>
+                            <engineDisplacement>1497</engineDisplacement>  
+                            <torque>395Nm@4027</torque>                      
+                            <mileage>452.6</mileage>            
+                            <maximumSpeed>127</maximumSpeed>   
+                        </specificationSector>
+                        <specificationSector sector='Specification_03'>
+                            <model>Hyundai Kona</model>
+                            <vehicleDescription><![CDATA[ Premium Black Interiors, Soft Touch Pad on Dashboard, Inside Door Handles-Metal Paint, Metal Pedals, Digital Instrument Cluster.]]>
+                            </vehicleDescription>
+                            <readMore>Read More</readMore>
+                        </specificationSector>
+                    </specification>
+                    <selling>
+                        <buy>BUY NOW</buy>
+                        <reserve>RESERVE NOW</reserve>
+                    </selling>
+                </item>
+                <item ItemNumber='08' InstallmentPay='Available'>
+                    <horizontalLine3></horizontalLine3>
+                    <carID>8</carID>
+                    <image class="VehicleImage"/>
+                    <specification>
+                        <specificationSector sector='Specification_01'>
+                            <manufacturer>MG</manufacturer>
+                            <color>Currant Red</color>
+                            <fuelType>Electric</fuelType>
+                            <batteryCapacity>44.5</batteryCapacity>        
+                            <chargingTime>8</chargingTime>        
+                            <carWeight>1418</carWeight>
+                            <quantity>3</quantity>
+                            <price>49,99,000</price>    
+                        </specificationSector>
+                        <specificationSector sector='Specification_02'>
+                            <condition>New</condition>
+                             <seats>4</seats>  
+                            <doors>4</doors>             
+                            <dimensions>      
+                                <length>4314</length>
+                                <width>1809</width>
+                                <height>1620</height>
+                            </dimensions>
+                            <engineDisplacement>1497</engineDisplacement>   
+                            <torque>353Nm@5000</torque>                       
+                            <mileage>181.2</mileage>           
+                            <maximumSpeed>140</maximumSpeed>    
+                        </specificationSector>
+                        <specificationSector sector='Specification_03'>
+                            <model>MG ZS EV</model>
+                            <vehicleDescription><![CDATA[The MG ZS EV has 1 Electric Engine on offer. It is available with the Automatic transmission. It has a power of 140.8bhp@3500rpm.]]>
+                            </vehicleDescription>
+                            <readMore>Read More</readMore>
+                        </specificationSector>
+                    </specification>
+                    <selling>
+                        <buy>BUY NOW</buy>
+                        <reserve>RESERVE NOW</reserve>
+                    </selling>
+                </item>
+                <item ItemNumber='09' InstallmentPay='Available'>
+                    <horizontalLine3></horizontalLine3>
+                    <carID>9</carID>
+                    <image class="VehicleImage"/>
+                    <specification>
+                        <specificationSector sector='Specification_01'>
+                            <manufacturer>Suzuki</manufacturer>
+                            <color>Sizzling Red</color>
+                            <fuelType>Petrol</fuelType>
+                            <fuelCapacity>48</fuelCapacity> 
+                            <steeringType>Power Assisted</steeringType>
+                            <numbersOfGear>4</numbersOfGear>
+                            <quantity>6</quantity>
+                            <price>39,49,000</price>   
+                        </specificationSector>
+                        <specificationSector sector='Specification_02'>
+                            <condition>Used</condition>
+                            <seats>5</seats>
+                            <doors>5</doors>             
+                            <dimensions>     
+                                <length>3995</length>
+                                <width>1790</width>
+                                <height>1640</height>
+                            </dimensions>
+                            <engineDisplacement>1462</engineDisplacement>   
+                            <torque>138Nm@4400</torque>                      
+                            <mileage>18.76</mileage>           
+                            <maximumSpeed>216</maximumSpeed>   
+                        </specificationSector>
+                        <specificationSector sector='Specification_03'>
+                            <model>Maruti Vitara Brezza</model>
+                            <vehicleDescription><![CDATA[Rear Seat Flip & Fold, Driver Side Footrest, Dust & Pollen Filter, Co-Driver Side Vanity Lamp, Sunglass Holder In Overhead Console.]]>
+                            </vehicleDescription>
+                            <readMore>Read More</readMore>
+                        </specificationSector>
+                    </specification>
+                    <selling>
+                        <buy>BUY NOW</buy>
+                        <reserve>RESERVE NOW</reserve>
+                    </selling>
+                </item>
+                <item ItemNumber='10' InstallmentPay='Available'>
+                    <horizontalLine3></horizontalLine3>
+                    <carID>10</carID>
+                    <image class="VehicleImage"/>
+                    <specification>
+                        <specificationSector sector='Specification_01'>
+                            <manufacturer>KIA</manufacturer>
+                            <color>Aurora Black Pearl</color>
+                            <fuelType>Hybrid</fuelType>
+                            <fuelCapacity>35</fuelCapacity>
+                            <transmission>Automatic</transmission>
+                            <steeringType>MDPS</steeringType> 
+                            <quantity>2</quantity>
+                            <price>66,90,000</price>   
+                        </specificationSector>
+                        <specificationSector sector='Specification_02'>
+                            <condition>New</condition>
+                            <seats>5</seats>
+                            <doors>2</doors>             
+                            <dimensions>     
+                                <length>4047</length>
+                                <width>1840</width>
+                                <height>1610</height>
+                            </dimensions>
+                            <engineDisplacement>1497</engineDisplacement>    
+                            <torque>109Nm@4000</torque>                     
+                            <mileage>580.5</mileage>            
+                            <maximumSpeed>560</maximumSpeed>   
+                        </specificationSector>
+                        <specificationSector sector='Specification_03'>
+                            <model>KIA Niro LX 2020</model>
+                            <vehicleDescription><![CDATA[Dual Front Advanced Airbags Dual Front Seat-Mounted Side Airbags Full-Length Side Curtain Airbags Driver's Side Knee Airbag Seat.]]>
+                            </vehicleDescription>
+                            <readMore>Read More</readMore>
+                        </specificationSector>
+                    </specification>
+                    <selling>
+                        <buy>BUY NOW</buy>
+                        <reserve>RESERVE NOW</reserve>
+                    </selling>
+                </item>
+            </vehicleDetail>
+            <vehicleDetail ID='BodyType_03' >
+                <bodyType ItemType='HATCHBACK'>OUR HATCHBACK</bodyType>
+                <item ItemNumber='11' InstallmentPay='Available'>
+                    <horizontalLine3></horizontalLine3>
+                    <carID>11</carID>
+                    <image class="VehicleImage"/>
+                    <specification>
+                        <specificationSector sector='Specification_01'>
+                            <manufacturer>Suzuki</manufacturer>
+                            <color>Mojito Green</color>
+                            <fuelType>Petrol</fuelType>
+                            <fuelSystem>Direct Injection</fuelSystem>
+                            <fuelCapacity>35</fuelCapacity>
+                            <carWeight>1185</carWeight>     
+                            <quantity>7</quantity>
+                            <price>3,70,000</price>       
+                        </specificationSector>
+                        <specificationSector sector='Specification_02'>
+                            <condition>New</condition>
+                            <seats>5</seats>
+                            <doors>5</doors>             
+                            <dimensions>      
+                                <length>3445</length>
+                                <width>1490</width>
+                                <height>1475</height>
+                            </dimensions>
+                            <engineDisplacement>1497</engineDisplacement>   
+                            <torque>91Nm@3000</torque>                      
+                            <mileage>22.05</mileage>            
+                            <maximumSpeed>140</maximumSpeed>    
+                        </specificationSector>
+                        <specificationSector sector='Specification_03'>
+                            <model>Maruti Alto 800 STD</model>
+                            <vehicleDescription><![CDATA[ ALto 800 comes up with Assist Grips (Co - Dr. + Rear), Sun Visor ( Dr. ), Front Door Trim Map Pocket, Front Door Trim Map Pocket.]]></vehicleDescription>
+                            <readMore>Read More</readMore>
+                        </specificationSector>
+                    </specification>
+                    <selling>
+                        <buy>BUY NOW</buy>
+                        <reserve>RESERVE NOW</reserve>
+                    </selling>
+                </item>
+                <item ItemNumber='12' InstallmentPay='Unavailable'>
+                    <horizontalLine3></horizontalLine3>
+                    <carID>12</carID>
+                    <image class="VehicleImage"/>
+                    <specification>
+                        <specificationSector sector='Specification_01'>
+                            <manufacturer>Vokkswagen</manufacturer>
+                            <color>Flash Red</color>
+                            <fuelType>Petrol</fuelType>
+                            <fuelCapacity>45</fuelCapacity> 
+                            <steeringType>Power Assisted</steeringType>
+                            <numbersOfGear>6</numbersOfGear>
+                            <quantity>5</quantity>
+                            <price>28,90,000</price>   
+                        </specificationSector>
+                        <specificationSector sector='Specification_02'>
+                            <condition>New</condition>
+                            <seats>5</seats>
+                            <doors>5</doors>             
+                            <dimensions>            
+                                <length>3971</length>
+                                <width>1682</width>
+                                <height>1478</height>
+                            </dimensions>
+                            <engineDisplacement>999</engineDisplacement>   
+                            <torque>175Nm@1500-4100</torque>                
+                            <mileage>22.05</mileage>             
+                            <maximumSpeed>160</maximumSpeed>     
+                        </specificationSector>
+                        <specificationSector sector='Specification_03'>
+                            <model>Volkswagen Polo</model>
+                            <vehicleDescription><![CDATA[The Volkswagen Polo consist of additional features like Chrome Application On Air Dam GT Badge On Front Grille and GT Doorstep Garnish.]]></vehicleDescription>
+                            <readMore>Read More</readMore>
+                        </specificationSector>
+                    </specification>
+                    <selling>
+                        <buy>BUY NOW</buy>
+                        <reserve>RESERVE NOW</reserve>
+                    </selling>
+                </item>
+                <item ItemNumber='13' InstallmentPay='Available'>
+                    <horizontalLine3></horizontalLine3>
+                    <carID>13</carID>
+                    <image class="VehicleImage"/>
+                    <specification>
+                        <specificationSector sector='Specification_01'>
+                            <manufacturer>TATA</manufacturer>
+                            <color>Flame Orange</color>
+                            <fuelType>Petrol</fuelType>
+                            <fuelSystem>Sequential injection</fuelSystem>
+                            <fuelCapacity>35</fuelCapacity> 
+                            <numbersOfGear>5</numbersOfGear>
+                            <quantity>8</quantity>
+                            <price>24,00,000</price>    
+                        </specificationSector>
+                        <specificationSector sector='Specification_02'>
+                            <condition>Used</condition>
+                            <seats>5</seats>
+                            <doors>5</doors>             
+                            <dimensions>            
+                                <length>3995</length>
+                                <width>1745</width>
+                                <height>1510</height>
+                            </dimensions>
+                            <engineDisplacement>1199</engineDisplacement>   
+                            <torque>113Nm@3300</torque>                     
+                            <mileage>23.84</mileage>         
+                            <maximumSpeed>150</maximumSpeed>   
+                        </specificationSector>
+                        <specificationSector sector='Specification_03'>
+                            <model>Tata Tiago</model>
+                            <vehicleDescription><![CDATA[The Tata Tiago has 1 Petrol Engine. It is available with the Manual and Automatic transmission. The has a wheelbase of 2400mm.]]>
+                            </vehicleDescription>
+                            <readMore>Read More</readMore>
+                        </specificationSector>
+                    </specification>
+                    <selling>
+                        <buy>BUY NOW</buy>
+                        <reserve>RESERVE NOW</reserve>
+                    </selling>
+                </item>
+                <item ItemNumber='14' InstallmentPay='Available'>
+                    <horizontalLine3></horizontalLine3>
+                    <carID>14</carID>
+                    <image class="VehicleImage"/>
+                    <specification>
+                        <specificationSector sector='Specification_01'>
+                            <manufacturer>Maruti Suzuki</manufacturer>
+                            <color>Nexa Blue</color>
+                            <fuelType>Petrol</fuelType>
+                            <fuelCapacity>35</fuelCapacity>
+                            <numbersOfGear>5</numbersOfGear>
+                            <carWeight>1360</carWeight>       
+                            <quantity>3</quantity>
+                            <price>32,50,000</price>        
+                        </specificationSector>
+                        <specificationSector sector='Specification_02'>
+                            <condition>New</condition>
+                            <seats>5</seats>
+                            <doors>5</doors>             
+                            <dimensions>     
+                                <length>3995</length>
+                                <width>1745</width>
+                                <height>1510</height>
+                            </dimensions>
+                            <engineDisplacement>1199</engineDisplacement>    
+                            <torque>113Nm@3300</torque>                      
+                            <mileage>23.84</mileage>           
+                            <maximumSpeed>150</maximumSpeed>   
+                        </specificationSector>
+                        <specificationSector sector='Specification_03'>
+                            <model>Maruti Baleno</model>
+                            <vehicleDescription><![CDATA[The Maruti Baleno comes up with extra features such as Driver and Co Driver Visor, Rear Parcel Shelf, Co Driver Vanity Lamp, and UV Cut.]]>
+                            </vehicleDescription>
+                            <readMore>Read More</readMore>
+                        </specificationSector>
+                    </specification>
+                    <selling>
+                        <buy>BUY NOW</buy>
+                        <reserve>RESERVE NOW</reserve>
+                    </selling>
+                </item>
+                <item ItemNumber='15' InstallmentPay='Available'>
+                    <horizontalLine3></horizontalLine3>
+                    <carID>15</carID>
+                    <image class="VehicleImage"/>
+                    <specification>
+                        <specificationSector sector='Specification_01'>
+                            <manufacturer>Renault</manufacturer>
+                            <color>Cool White</color>
+                            <fuelType>Petrol</fuelType>
+                            <fuelCapacity>32</fuelCapacity> 
+                            <numbersOfGear>5</numbersOfGear>
+                            <carWeight>1210</carWeight>        
+                            <quantity>4</quantity>
+                            <price>21,07,100</price>         
+                        </specificationSector>
+                        <specificationSector sector='Specification_02'>
+                            <condition>New</condition>
+                            <seats>5</seats>
+                            <doors>5</doors>             
+                            <dimensions>            
+                                <length>3631</length>
+                                <width>1490</width>
+                                <height>1597</height>
+                            </dimensions>
+                            <engineDisplacement>1227</engineDisplacement>   
+                            <torque>123Nm@3900</torque>                      
+                            <mileage>25.46</mileage>           
+                            <maximumSpeed>160</maximumSpeed>   
+                        </specificationSector>
+                        <specificationSector sector='Specification_03'>
+                            <model>Renault KWID</model>
+                            <vehicleDescription><![CDATA[ KWID Parking Brake Console, Mono Tone Dashboard, Rear Parcel Tray, Door Map Storage, Open Storage In Front of the passenger.]]>
+                            </vehicleDescription>
+                            <readMore>Read More</readMore>
+                        </specificationSector>
+                    </specification>
+                    <selling>
+                        <buy>BUY NOW</buy>
+                        <reserve>RESERVE NOW</reserve>
+                    </selling>
+                </item>
+                <item ItemNumber='16' InstallmentPay='Unavailable'>
+                    <horizontalLine3></horizontalLine3>
+                    <carID>16</carID>
+                    <image class="VehicleImage"/>
+                    <specification>
+                        <specificationSector sector='Specification_01'>
+                            <manufacturer>Mahindra</manufacturer>
+                            <color>Coral Blue</color>
+                            <fuelType>Electric</fuelType>
+                            <batteryCapacity>91.8</batteryCapacity>      
+                            <chargingTime>7</chargingTime>              
+                            <transmission>Automatic</transmission>
+                            <quantity>2</quantity>
+                            <price>50,00,000</price>    
+                        </specificationSector>
+                        <specificationSector sector='Specification_02'>
+                            <condition>New</condition>
+                            <seats>4</seats>
+                            <doors>4</doors>             
+                            <dimensions>      
+                                <length>3590</length>
+                                <width>1560</width>
+                                <height>1585</height>
+                            </dimensions>
+                            <engineDisplacement>1297</engineDisplacement>   
+                            <torque>81Nm@3750</torque>                    
+                            <mileage>201.2</mileage>          
+                            <maximumSpeed>90</maximumSpeed>   
+                        </specificationSector>
+                        <specificationSector sector='Specification_03'>
+                            <model>Mahindra e20 PLUS</model>
+                            <vehicleDescription><![CDATA[e20 PLUS has a power of 19KW@3500rpm with 2 phase ac induction motors. Its controller volume is 600 Amp or 550 Apm.]]>
+                            </vehicleDescription>
+                             <readMore>Read More</readMore>
+                        </specificationSector>
+                    </specification>
+                    <selling>
+                        <buy>BUY NOW</buy>
+                        <reserve>RESERVE NOW</reserve>
+                    </selling>
+                </item>
+            </vehicleDetail>
+            <vehicleDetail ID='BodyType_04' >
+                <bodyType ItemType='COUPE'>OUR COUPE</bodyType>
+                <item ItemNumber='17' InstallmentPay='Available'>
+                    <horizontalLine3></horizontalLine3>
+                    <carID>17</carID>
+                    <image class="VehicleImage"/>
+                    <specification>
+                        <specificationSector sector='Specification_01'>
+                            <manufacturer>Hyundai</manufacturer>
+                            <color>Cool White</color>
+                            <fuelType>Petrol</fuelType>
+                            <fuelCapacity>50</fuelCapacity> 
+                            <transmission>Manual</transmission>
+                            <numbersOfGear>5</numbersOfGear>
+                            <quantity>5</quantity>
+                            <price>30,50,000</price>   
+                        </specificationSector>
+                        <specificationSector sector='Specification_02'>
+                            <condition>Used</condition>
+                            <seats>5</seats>
+                            <doors>3</doors>             
+                            <dimensions>            
+                                <length>4045</length>
+                                <width>1730</width>
+                                <height>1449</height>
+                            </dimensions>
+                            <engineDisplacement>1248</engineDisplacement>  
+                            <torque>122Nm@3300</torque>                      
+                            <mileage>181.5</mileage>           
+                            <maximumSpeed>106</maximumSpeed>    
+                        </specificationSector>
+                        <specificationSector sector='Specification_03'>
+                            <model>Hyundai i20 Coupe</model>
+                            <vehicleDescription><![CDATA[i20 coupe comes up wirh multi-point indirect injection fuel system, wheelbase of 2570mm, steering rack.]]>
+                            </vehicleDescription>
+                            <readMore>Read More</readMore>
+                        </specificationSector>
+                    </specification>
+                    <selling>
+                        <buy>BUY NOW</buy>
+                        <reserve>RESERVE NOW</reserve>
+                    </selling>
+                </item>
+                <item ItemNumber='18' InstallmentPay='Available'>
+                    <horizontalLine3></horizontalLine3>
+                    <carID>18</carID>
+                    <image class="VehicleImage"/>
+                    <specification>
+                        <specificationSector sector='Specification_01'>
+                            <manufacturer>Ford</manufacturer>
+                            <color>Race Red</color>
+                            <fuelType>Petrol</fuelType>
+                            <fuelCapacity>61</fuelCapacity> 
+                            <transmission>Automatic</transmission>
+                            <numbersOfGear>6</numbersOfGear>
+                            <quantity>5</quantity>
+                            <price>73,20,000</price>    
+                        </specificationSector>
+
+                        <specificationSector sector='Specification_02'>
+                            <condition>New</condition>
+                            <seats>4</seats>
+                            <doors>2</doors>             
+                            <dimensions>           
+                                <length>4787</length>
+                                <width>2040</width>
+                                <height>1390</height>
+                            </dimensions>
+                            <engineDisplacement>4951</engineDisplacement>   
+                            <torque>515Nm@4300</torque>                        
+                            <mileage>13.0</mileage>               
+                            <maximumSpeed>237</maximumSpeed>      
+                        </specificationSector>
+                        <specificationSector sector='Specification_03'>
+                            <model>Ford Mustang</model>
+                            <vehicleDescription><![CDATA[ Mustang has Illuminated Driver Sun Visor,Front Carpet Floor Mats, Leather Handbrake Grips, Locking Center Console Bin.]]>
+                            </vehicleDescription>
+                            <readMore>Read More</readMore>
+                        </specificationSector>
+                    </specification>
+                    <selling>
+                        <buy>BUY NOW</buy>
+                        <reserve>RESERVE NOW</reserve>
+                    </selling>
+                </item>
+                <item ItemNumber='19' InstallmentPay='Available'>
+                    <horizontalLine3></horizontalLine3>
+                    <carID>19</carID>
+                    <image class="VehicleImage"/>
+                    <specification>
+                        <specificationSector sector='Specification_01'>
+                            <manufacturer>Mercedes</manufacturer>
+                            <color>Red Metallic</color>
+                            <fuelType>Diesel</fuelType>
+                            <fuelSystem>Direct Injection</fuelSystem>
+                            <fuelCapacity>93</fuelCapacity> 
+                            <numbersOfGear>9</numbersOfGear>
+                            <quantity>5</quantity>
+                            <price> 2,60,00,000</price>   
+                        </specificationSector>
+                        <specificationSector sector='Specification_02'>
+                            <condition>New</condition>
+                            <seats>5</seats>
+                            <doors>4</doors>             
+                            <dimensions>            
+                                <length>4819</length>
+                                <width>2157</width>
+                                <height>1772</height>
+                            </dimensions>
+                            <engineDisplacement>2925</engineDisplacement>   
+                            <torque>700Nm@1600-4000</torque>                   
+                            <mileage>9.7</mileage>                 
+                            <maximumSpeed>247</maximumSpeed>       
+                        </specificationSector>
+                        <specificationSector sector='Specification_03'>
+                            <model>Mercedes Benz GLE Coupe</model>
+                            <vehicleDescription><![CDATA[The GLE Coupé can assist you in almost any driving situation and safety systems Driving Assistance package, Parking package. ]]>
+                            </vehicleDescription>
+                            <readMore>Read More</readMore>
+                        </specificationSector>
+                    </specification>
+                    <selling>
+                        <buy>BUY NOW</buy>
+                        <reserve>RESERVE NOW</reserve>
+                    </selling>
+                </item>
+        </vehicleDetail>
+        <vehicleDetail ID='BodyType_05'  >
+            <bodyType ItemType='MINIVAN'>OUR MINIVAN</bodyType>
+            <item ItemNumber='20' InstallmentPay='Unavailable'>
+                <horizontalLine3></horizontalLine3>
+                <carID>20</carID>
+                <image class="VehicleImage"/>
+                <specification>
+                    <specificationSector sector='Specification_01'>
+                        <manufacturer>Maruti Suzuki</manufacturer>
+                        <color>Pearl Arctic White</color>
+                        <fuelType>Petrol</fuelType>
+                        <fuelCapacity>22</fuelCapacity>
+                        <numbersOfGear>4</numbersOfGear>
+                        <carWeight>1473</carWeight>   
+                        <quantity>5</quantity>
+                        <price>8,00,000</price>      
+                    </specificationSector>
+                    <specificationSector sector='Specification_02'>
+                        <condition>Used</condition>
+                        <seats>2</seats>
+                        <doors>5</doors>             
+                        <dimensions>             
+                            <length>5696</length>
+                            <width>2012</width>
+                            <height>2148</height>
+                        </dimensions>
+                        <engineDisplacement>796</engineDisplacement>  
+                        <torque>60Nm@2000</torque>                     
+                        <mileage>18.8</mileage>           
+                        <maximumSpeed>82</maximumSpeed>    
+                    </specificationSector>
+                    <specificationSector sector='Specification_03'>
+                        <model>Omni Cargo Van</model>
+                        <vehicleDescription><![CDATA[Maruti Omni CARGO is a complete van with its two rear sliding doors, rear hatch tail gate and an almost box shaped body.]]>
+                        </vehicleDescription>
+                        <readMore>Read More</readMore>
+                    </specificationSector>
+                </specification>
+                <selling>
+                    <buy>BUY NOW</buy>
+                    <reserve>RESERVE NOW</reserve>
+                </selling>
+            </item>
+            </vehicleDetail>
+        </vehicleInformation>
+        <shopDetails>
+            <shopName>Kimstock Market</shopName>
+            <address>116 Kamalphokari Marg, Kathmandu Nepal</address>
+            <telephoneNumber>01491333</telephoneNumber>
+            <websiteAddress>kimstock@gmail.com</websiteAddress>
+            <followOn>
+                <socialMedia>Kimstock Social Media:</socialMedia>
+                <facebook class='FacebookIcon'/>
+                <instagram class='InstagramIcon'/>
+                <twitter class='TwitterIcon'/>
+                <whatsApp class='WhatsAppIcon'/>
+            </followOn>
+            <horizontalLine3></horizontalLine3>
+            <copyRight> &#169; 2020 Kimstock Pvt. Ltd.</copyRight> 
+        </shopDetails>
+    </vehicleShop>

@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <xs:schema  xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="vehicleShop">
+      <xs:complexType>
+        <xs:sequence>
+          <xs:element name="basicInfo">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="logo">
+                  <xs:complexType>
+                    <xs:attribute type="xs:string" name="class" use="required"/>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element name="clockIcon">
+                  <xs:complexType>
+                    <xs:attribute type="xs:string" name="class" use="required"/>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element type="xs:string" name="openingTime"/>
+                <xs:element name="phoneIcon">
+                  <xs:complexType>
+                    <xs:attribute type="xs:string" name="class"/>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element type="xs:string" name="phoneNumber"/>
+                <xs:element name="horizontalLine"/>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="carBackground">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="navBar">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element type="xs:string" name="li" minOccurs="0" maxOccurs="unbounded"/>
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element type="xs:string" name="purchaseNow"/>
+                <xs:element name="imageTitle">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element type="xs:string" name="photoInfo1"/>
+                      <xs:element type="xs:string" name="photoInfo2"/>
+                      <xs:element type="xs:string" name="photoInfo3"/>
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="companyServices">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="serviceDetail" minOccurs="0" maxOccurs="unbounded" >
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element type="xs:int" name="serviceNumber"/>
+                      <xs:element type="xs:string" name="serviceName"/>
+                      <xs:element type="xs:string" name="serviceInfo"/>
+                      <xs:element type="xs:string" name="moreDetail"/>
+                    </xs:sequence>
+                    <xs:attribute type="xs:string" name="ServiceID" use="optional"/>
+                  </xs:complexType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+
+          <xs:element name="companyInfo">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element type="xs:string" name="companyInfo1"/>
+                <xs:element type="xs:string" name="companyInfo2"/>
+                <xs:element type="xs:string" name="companyInfo3"/>
+                <xs:element type="xs:string" name="companyInfo4"/>
+                <xs:element type="xs:string" name="companyInfo5"/>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="featureCar">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="backgroundImage">
+                  <xs:complexType>
+                    <xs:simpleContent>
+                      <xs:extension base="xs:string">
+                        <xs:attribute type="xs:string" name="class"/>
+                      </xs:extension>
+                    </xs:simpleContent>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element type="xs:string" name="caption1"/>
+                <xs:element type="xs:string" name="caption2"/>
+                <xs:element type="xs:string" name="horizontalLine1"/>
+                <xs:element type="xs:string" name="horizontalLine2"/>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+         <xs:element name="vehicleInformation">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="vehicleDetail" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="bodyType">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute  name="ItemType" use="required" >
+                              <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                <xs:enumeration value="SUV"/>
+                                <xs:enumeration value="SEDAN"/>
+                                <xs:enumeration value="HATCHBACK"/>
+                                <xs:enumeration value="COUPE"/>
+                                <xs:enumeration value="MINIVAN"/>
+                                </xs:restriction>
+                              </xs:simpleType>
+                            </xs:attribute>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="item" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="horizontalLine3"/>
+                          <xs:element type="xs:int" name="carID"/>
+                          <xs:element name="image">
+                            <xs:complexType>
+                              <xs:attribute type="xs:string" name="class" use="optional"/>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="specification" minOccurs="1" maxOccurs="unbounded">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="specificationSector" maxOccurs="unbounded" >
+                                  <xs:complexType>
+                                    <xs:choice minOccurs="1">
+                                      <xs:sequence>
+	                                      <xs:element type="xs:string" name="manufacturer"/>
+	                                      <xs:element type="xs:string" name="color" />
+	                                      <xs:element name="fuelType" >
+	                                        <xs:simpleType>
+	                                          <xs:restriction base="xs:string">
+	                                            <xs:enumeration value="Petrol"/>
+	                                            <xs:enumeration value="Diesel"/>
+	                                            <xs:enumeration value="Hybrid"/>
+	                                            <xs:enumeration value="Electric"/>
+	                                          </xs:restriction>
+	                                        </xs:simpleType>
+	                                      </xs:element>
+	                                      <xs:element type="xs:string" name="fuelSystem" minOccurs="0"/>
+	                                      <xs:element type="xs:string" name="fuelCapacity" minOccurs="0"/>
+	                                      <xs:element type="xs:float" name="batteryCapacity" minOccurs="0"/>
+	                                      <xs:element type="xs:float" name="chargingTime" minOccurs="0"/>
+	                                      <xs:element type="xs:string" name="transmission" minOccurs="0"/>
+	                                      <xs:element type="xs:string" name="steeringType" minOccurs="0"/>
+	                                      <xs:element type="xs:int" name="numbersOfGear" minOccurs="0"/>
+	                                      <xs:element type="xs:int" name="carWeight" minOccurs="0"/>
+	                                      <xs:element  name="quantity" minOccurs="0">
+                                          <xs:simpleType>
+                                            <xs:restriction base="xs:int">
+                                              <xs:minInclusive value="1"/>
+                                              <xs:maxInclusive value="10"/>
+                                            </xs:restriction>
+                                          </xs:simpleType>
+                                        </xs:element>
+	                                      <xs:element type="xs:string" name="price" minOccurs="0"/>
+									  									</xs:sequence>
+									  									<xs:sequence>
+	                                      <xs:element name="condition" >
+                                          <xs:simpleType>
+                                            <xs:restriction base="xs:string">
+                                              <xs:enumeration value="New"/>
+                                              <xs:enumeration value="Used"/>
+                                            </xs:restriction>
+                                          </xs:simpleType>
+                                        </xs:element>
+	                                      <xs:element name="seats">
+                                        <xs:simpleType>
+                                          <xs:restriction base="xs:integer">
+                                            <xs:minInclusive value="1"/>
+                                            <xs:maxInclusive value="40"/>
+                                          </xs:restriction>
+                                        </xs:simpleType>
+                                        </xs:element>
+	                                      <xs:element  name="doors" >
+                                          <xs:simpleType>
+                                            <xs:restriction base="xs:integer">
+                                              <xs:minInclusive value="1"/>
+                                              <xs:maxInclusive value="8"/>
+                                            </xs:restriction>
+                                          </xs:simpleType>
+                                        </xs:element>
+	                                      <xs:element name="dimensions">
+	                                        <xs:complexType>
+	                                          <xs:sequence>
+	                                            <xs:element type="xs:short" name="length"/>
+	                                            <xs:element type="xs:short" name="width"/>
+	                                            <xs:element type="xs:short" name="height"/>
+	                                          </xs:sequence>
+	                                        </xs:complexType>
+	                                      </xs:element>
+	                                      <xs:element type="xs:short" name="engineDisplacement"/>
+	                                      <xs:element type="xs:string" name="torque"/>
+	                                      <xs:element type="xs:float" name="mileage"/>
+	                                      <xs:element type="xs:short" name="maximumSpeed"/>
+																			</xs:sequence>
+                                      <xs:sequence>
+	                                      <xs:element type="xs:string" name="model"/>
+	                                      <xs:element type="xs:string" name="vehicleDescription"/>
+	                                      <xs:element type="xs:string" name="readMore"/>
+																			</xs:sequence>
+                                    </xs:choice>
+                                    <xs:attribute type="xs:string" name="sector" use="optional"/>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="selling">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="buy"/>
+                                <xs:element type="xs:string" name="reserve"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                        <xs:attribute type="xs:int" name="ItemNumber" use="required"/>
+                        <xs:attribute name="InstallmentPay" use="required">
+                          <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                              <xs:enumeration value="Available"/>
+                              <xs:enumeration value="Unavailable"/>
+                            </xs:restriction>
+                         </xs:simpleType>
+                    </xs:attribute>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute type="xs:string" name="ID" use="required"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+          <xs:element name="shopDetails">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element type="xs:string" name="shopName"/>
+                <xs:element type="xs:string" name="address"/>
+                <xs:element type="xs:int" name="telephoneNumber"/>
+                <xs:element type="xs:string" name="websiteAddress"/>
+                <xs:element name="followOn">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element type="xs:string" name="socialMedia"/>
+                      <xs:element name="facebook">
+                        <xs:complexType>
+                          <xs:attribute type="xs:string" name="class"/>
+                        </xs:complexType>
+                      </xs:element>
+                      <xs:element name="instagram">
+                        <xs:complexType>
+                          <xs:attribute type="xs:string" name="class"/>
+                        </xs:complexType>
+                      </xs:element>
+                      <xs:element name="twitter">
+                        <xs:complexType>
+                          <xs:attribute type="xs:string" name="class"/>
+                        </xs:complexType>
+                      </xs:element>
+                      <xs:element name="whatsApp">
+                        <xs:complexType>
+                          <xs:attribute type="xs:string" name="class"/>
+                        </xs:complexType>
+                      </xs:element>
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element name="horizontalLine3"/>
+                <xs:element type="xs:string" name="copyRight"/>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:sequence>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+    
